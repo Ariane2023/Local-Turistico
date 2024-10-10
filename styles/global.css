@@ -7,7 +7,7 @@
 :root {
   --background-default:#F5F4F0;
   --border-primary:#D9D9D9;
-  --text-primary:#1B1B1B;
+   --text-primary:#1B1B1B;
   --text-secondary:#333333;
   --text-tertiary:#696969;
   --text-headline:#E1624F;
@@ -15,4 +15,14 @@
   --accent-orange:#E95E10;
   --accent-pink: #E5245E;
   --accent-purple:#591B98;
+  --font-famyle: "Open sans", sans-serif;
+  --text-h1: bold 36px/125% var(--font-family);
+  --text-h2: bold 32px/125% var(--font-family);
+  --text-h3: bold 28px/125% var(--font-family);
+  --text-hedline: bold 16px/125% var(--font-family);
+  --text-paragraph: 16px/125% var(--font-family);
+  --text-subtitle: italic 16px/125% var(--font-family);
+  
+
+  
 }
