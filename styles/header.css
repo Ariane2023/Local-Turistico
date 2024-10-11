@@ -1,0 +1,22 @@
+header {
+  margin: 80px 88px 80px 40px;
+  
+}
+
+header img {
+  border-radius: 28px;
+}
+.title-page {
+  gap: 8px;
+  margin-bottom: 48px;
+}
+
+header h1 {
+  font: var(--text-h1);
+}
+
+
+.description-image p {
+  font: var(--text-subtitle);
+  font-weight: 400;
+}
