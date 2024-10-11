@@ -21,8 +21,11 @@
   --text-h3: bold 28px/125% var(--font-family);
   --text-hedline: bold 16px/125% var(--font-family);
   --text-paragraph: 16px/125% var(--font-family);
-  --text-subtitle: italic 16px/125% var(--font-family);
-  
+  --text-subtitle: italic 16px/125% var(--font-family);  
+}
 
-  
+body {
+  font: var(--text-paragraph);
+  color: var(--text-secondary);
+  background-color: var(--background-default);
 }
