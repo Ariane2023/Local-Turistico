@@ -1,22 +1,47 @@
 header {
   margin: 80px 88px 80px 40px;
-  
+    
 }
 
 header img {
   border-radius: 28px;
-}
-.title-page {
-  gap: 8px;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 
-header h1 {
-  font: var(--text-h1);
+h1 {
+  color: var(--text-primary, #1B1B1B);
+  /* h1 */
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  margin-bottom: 40px;
+}
+
+h3 {
+  color: var(--text-headline, #E1624F);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+
+  margin-bottom: 8px;
+  
+   
 }
 
 
-.description-image p {
+
+.description-image  {
+  color: var(--text-secondary, #333);
+  text-align: center;
+  /* subtitle */
   font: var(--text-subtitle);
   font-weight: 400;
+  line-height: normal;
+ 
 }

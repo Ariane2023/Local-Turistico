@@ -16,24 +16,25 @@
   --accent-pink: #E5245E;
   --accent-purple:#591B98;
   --font-famyle: "Open sans", sans-serif;
-  --text-h1: bold 36px/150% var(--font-family);
+  --text-title: bold 36px/150% var(--font-family);
   --text-h2: bold 32px/125% var(--font-family);
   --text-h3: bold 28px/125% var(--font-family);
   --text-hedline: bold 16px/125% var(--font-family);
   --text-paragraph: 16px/125% var(--font-family);
-  --text-subtitle: italic 16px/125% var(--font-family);  
+  --text-subtitle: italic 16px/180% var(--font-family);  
 }
 
 body {
-  font: var(--text-paragraph);
   color: var(--text-secondary);
   background-color: var(--background-default);
+  display: flex;
+  align-items: center;
 }
 
 .container {
-
-  margin: 88 48;
-  
+  text-align: center;
+  max-width: 100%;
+  margin: 88px;
 }
 
 
