@@ -22,40 +22,45 @@
   --text-hedline: bold 16px/125% var(--font-family);
   --text-paragraph: 16px/150% var(--font-family);
   --text-subtitle: italic 16px/180% var(--font-family);  
+
+  max-width: 100%;
 }
 
 body {
   color: var(--text-secondary);
   background-color: var(--background-default);
-  display: flex;
-  align-items: center;
-
+  
   margin: 40px 88px 80px 40px;
-
-  max-width: 100%;
+  
 }
 
-
-
-.container {
+#container {
+  
+  margin: 88px 88px 80px 137px;
+  color: var(--text-secondary, #333);
+  color: var(--text-secondary, #333);
   text-align: center;
-  max-width: 100%;
-  margin: 80px 88px 80px 137px;
-  text-align: left;
+  /* subtitle */
+  font: var(--text-subtitle);
+  font-weight: 400;
+  line-height: normal;  
 }
 
-.container p {
+#container p {
   color: var(--text-secondary, #333);
   font: var(--text-paragraph);
   line-height: normal;
-  display: flexbox;
-  left: 100%;
-
+  
+  left: 80%;
 }
 
-.content-list h3 {
-  margin-top: 68px;
+#container img {
+  border-radius: 28px;
+  flex-direction: column;
+}
 
+.title-list p {
+  margin-bottom: 20px;
 }
 
 .card-travel li h2 {
@@ -64,7 +69,6 @@ body {
   
   font-weight: 700;
   line-height: normal;
-
 }
 
 .card-travel p {
@@ -75,16 +79,9 @@ body {
 .list li {
   margin-top: 20px;
   text-align: left;
-  
-
 }
 
-.list img {
-  border-radius: 28px;
- 
-}
-
-.list span {
+.card-travel span {
   color: var(--accent-blue, #0C51A7);
   font: var(--text-paragraph);
   font-weight: 700;
@@ -95,19 +92,18 @@ footer {
   width: 43.0rem; 
   height: 9.4rem; 
   padding: 1.6rem; 
-  left: 40.0rem;
-
-  display: flex;
+  left: 50.0rem;
+  
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: fixed;
-  bottom: 0;
+  position: absolute;
+  bottom: 1;
+  
 }
 
 footer img {
   vertical-align: middle;
-  
 }
  
 
