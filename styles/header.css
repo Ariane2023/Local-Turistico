@@ -1,9 +1,4 @@
 
-header img {
-  border-radius: 28px;
-  margin-bottom: 24px;
-}
-
 h1 {
   color: var(--text-primary, #1B1B1B);
   /* h1 */
@@ -28,11 +23,20 @@ h3 {
   margin-bottom: 8px;
 }
 .description-image  {
-  color: var(--text-secondary, #333);
+  /* Para centralizar um elemento dentro de outro: */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-page p {
+  color: var(--text-secondary);
   text-align: center;
-  /* subtitle */
+
   font: var(--text-subtitle);
-  font-weight: 400;
-  line-height: normal;
+  font-style: italic;
+  margin-top: 24px;
+
  
 }
+ 
